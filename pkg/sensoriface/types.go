@@ -1,7 +1,7 @@
 package sensoriface
 
 type Data interface {
-	GetData() ([]DataPoint, error)
+	GetData() []DataPoint
 }
 
 type DataPoint struct {
